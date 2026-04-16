@@ -1,0 +1,17 @@
+{
+	"name": "ls_Onprem_Files",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\SreejaFiles",
+			"userId": "sreejareddy1406@outlook.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMDgwZTA0MS1kNGU5LTQ4OTYtOTFhZi0xOTlmMjQ5YzU0ZDkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SreejaSelfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Sreejadatafactoryproject",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3fc1959e-f9bb-432d-a546-600e410fde91",
+		"tenantId": "aef1c3b1-9ca0-46cc-9a2a-bffd4067966f"
+	}
+}
