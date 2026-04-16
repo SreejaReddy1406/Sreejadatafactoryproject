@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Sreejadatafactoryproject"
+		},
+		"ls_Onprem_Files_password": {
+			"value": ""
+		},
+		"ls_azuresql_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_Onprem_Files_properties_typeProperties_host": {
+			"value": "C:\\SreejaFiles"
+		},
+		"ls_Onprem_Files_properties_typeProperties_userId": {
+			"value": "sreejareddy1406@outlook.com"
+		},
+		"ls_api_src_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_azuresql_properties_typeProperties_server": {
+			"value": "adfprojectserver14.database.windows.net"
+		},
+		"ls_azuresql_properties_typeProperties_database": {
+			"value": "adfprojectdb"
+		},
+		"ls_azuresql_properties_typeProperties_userName": {
+			"value": "sreeja"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://adfsreejastorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
